@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://background_tile.png" type="Texture" id=1]
+
+[node name="main" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scale = Vector2( 4, 4 )
+transform = Transform2D( 4, 0, 0, 4, 0, 0 )
+
+[node name="BackgroundLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_offset = Vector2( -32, -32 )
+
+[node name="background_sprite" type="TextureRect" parent="ParallaxBackground/BackgroundLayer"]
+margin_left = -40.433
+margin_top = -16.6489
+margin_right = 192.567
+margin_bottom = 277.351
+texture = ExtResource( 1 )
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}

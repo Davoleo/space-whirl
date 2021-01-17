@@ -16,7 +16,15 @@ _global_script_class_icons={
 [application]
 
 config/name="whirl"
+run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=400
+window/size/height=800
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [rendering]
 
