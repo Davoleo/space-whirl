@@ -3,4 +3,6 @@
 export_presets.cfg
 
 # Unused (as of right now)
-# .mono
+.mono
+
+.idea
